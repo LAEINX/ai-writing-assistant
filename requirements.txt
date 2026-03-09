@@ -1,0 +1,32 @@
+# AI 写作工具 - Python 依赖包
+
+# LLM 框架
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+
+# Hugging Face Transformers
+transformers>=4.36.0
+torch>=2.1.0
+accelerate>=0.24.0
+
+# OpenAI API
+openai>=1.12.0
+
+# 文本处理
+nltk>=3.8.0
+spacy>=3.7.0
+textstat>=0.7.1
+
+# 工具库
+python-dotenv>=1.0.0
+rich>=13.7.0
+tqdm>=4.66.0
+
+# Web 接口（可选）
+fastapi>=0.109.0
+uvicorn>=0.25.0
+
+# 测试
+pytest>=7.4.0
+pytest-cov>=4.1.0
